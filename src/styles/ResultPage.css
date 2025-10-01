@@ -1,0 +1,13 @@
+.result-container {
+  margin: 50px auto;
+  max-width: 600px;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.feedback ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}

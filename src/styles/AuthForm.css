@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+}
+
+/* Container for login/signup pages */
+.auth-container {
+  display: flex;
+  justify-content: center;   /* center horizontally */
+  align-items: center;       /* center vertically */
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-direction: column;
+}
+
+/* Form styling */
+.auth-form {
+  background: rgba(0,0,0,0.6); /* semi-transparent */
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+}
+
+.auth-form h2 {
+  margin-bottom: 20px;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.auth-form button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.auth-form button:hover {
+  background-color: #155ab6;
+}
+
+.auth-form .link {
+  margin-top: 12px;
+  display: block;
+  color: #1a73e8;
+  cursor: pointer;
+  text-decoration: underline;
+}
